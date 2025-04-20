@@ -1,0 +1,688 @@
+
+.open-sans-<uniquifier> {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+.
+
+
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -50px ;
+    padding: 0 100px;
+}
+
+.nav-title {
+
+font-size: 20px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav ul li{
+list-style: none;
+margin: 20px 100px;
+
+}
+.nav li a{
+
+    text-decoration:none;
+}
+
+/* root style */
+:root{
+
+    --font-size:24px; 
+    --font-bold:bold;
+    --font-size1:52px; 
+--font-color:orange;
+--font-color1:skyblue;
+--font-color2:rgba(5, 212, 223, 1);
+--font-color3:rgba(93, 88, 239, 1);
+}
+
+.font{
+    background-color: var(--font-color);
+   
+}
+
+/* font color */
+
+.font1{
+    color: var(--font-color);
+   font-size: 20px;
+}
+
+.font2{
+    color: var(--font-color1);
+   font-size: 20px;
+}
+
+.font3{
+    color: var(--font-color2);
+   font-size: 20px;
+}
+
+.font4{
+    color: var(--font-color3);
+   font-size: 20px;
+}
+
+/* font size */
+
+.font5{
+    font-weight: bolder;
+   font-size: 32px;
+}
+
+.font6{
+    font-weight: bold;
+   font-size: 56px;
+   color: orange;
+}
+
+.font7{
+    color: var(--font-color1);
+   font-size: 56px;
+}
+
+.font8{
+    font-size: 56px;
+}
+
+.font9{
+    font-size: 20px;
+}
+
+.font10{
+ font-weight: bold;
+    font-size: 46px;
+   text-align: center;
+}
+
+.font11{
+    font-size: 24.52px;
+    font-weight: bold;
+}
+
+.font12{
+color: rgba(128, 128, 128, 1);
+    font-size: 15.09px;
+    line-height: 2;
+}
+
+.font13{
+font-size: 24px;
+font-weight: bold;
+
+}
+
+.font14{
+ font-weight: bold;
+    font-size: 15.34px;
+    line-height: 24px;
+}
+
+.font15{
+    font-size: 15.34px;
+    color: rgba(102, 102, 102, 1);
+     line-height: 24px;
+}
+.font-size{
+    width: 197px; height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* button style */
+.btn-primary{
+    background-color: black;
+    width: 197px; height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.btn-primary1{
+    background-color: white;
+    width: 197px; height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: rgba(100, 200, 255, 1);
+    font-size: 15.09px;
+    font-weight: bold;
+    margin: 60px;
+}
+
+.btn-primary2{
+    background-color: white;
+    width: 197px; height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: rgba(240, 170, 0, 1);
+    font-size: 15.09px;
+    font-weight: bold;
+    margin: 60px;
+}
+
+.btn-primary3{
+    background-color: white;
+    width: 197px; height: 50px;
+    border-radius: 10px;
+    border: none;
+    color:rgba(135, 0, 255, 1);
+    font-size: 15.09px;
+    font-weight: bold;
+    margin: 60px;
+}
+
+.btn-primary4{
+height: 47.93px; width: 174.51px;
+    color: white;
+    background-color: rgba(60, 216, 232, 1);
+    font-size: 15.34px;
+    border-radius: 47.93px;
+    border: none;
+  
+   
+    
+}
+
+.btn-primary5{
+
+   background-color: rgba(149, 178, 38, 1);
+   border-radius: 47.93px;
+   height: 38.35px;
+   width: 179.44px;
+   font-size: 15.34px;
+   font-weight: lighter;
+   color: white;
+   border: none;
+
+
+}
+
+
+.btn-primary6{
+
+    background-color: rgba(93, 88, 240, 1);
+    border-radius: 47.93px;
+    height: 38.35px;
+    width: 174.51px;
+    font-size: 15.34px;
+    font-weight: lighter;
+    color: white;
+    border: none;
+ }
+
+
+/* box color */
+.skyblue{
+    background:linear-gradient(to bottom ,#DEF5FF ,#FFFFFF ,#FFFFFF);
+}
+
+.orange{
+    background:linear-gradient(to bottom ,#FFF4DC ,#FFFFFF ,#FFFFFF);
+}
+
+.purple {
+    background:linear-gradient(to bottom ,#DEF5FF ,#FFFFFF ,#FFFFFF);
+}
+/* banner style */
+
+.banner{
+display: flex;
+justify-content: space-around;
+gap:  50px;
+padding: 100px;
+align: left;
+}
+
+
+.banner-greting{
+gap: 24px;
+    
+}
+
+.secondary-backgroud{
+     justify-content: center;
+     background-image: url("assets/bg.png");
+     margin: 60px 0px;
+    
+}
+
+/* container style */
+
+.box {
+   width: 367.8px;height: 476.78px;
+    border-radius: 18.86px;
+    justify-items: center;
+    gap: 30px;
+  padding-top: 30px;
+  
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: space-between;
+    padding: 80px 100px;
+    border-spacing: 28px;
+  margin: 80px 200px;
+  gap: 28px;
+}
+
+.box1{
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.10);
+   border: 3px solid transparent;
+}
+
+
+.lang{
+
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 80px 0 60px 0;
+
+}
+
+.legend{
+    background-color: orange;
+    border-radius: 50%;
+    width: 60px; height: 60px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 27px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+/* 2nd backgroud */
+
+.thrid-background{
+    
+    background-image: linear-gradient(to bottom,#FFFFFF ,#FEA301 200%) ,url("assets/bg.png" );
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 0px 60px;
+    height: 1018.02px;
+    width: auto;
+    
+}
+
+
+.viewport{
+
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    border-radius: 16px; 
+    margin: 80px 200px;
+ justify-content: center;
+}
+
+.radious-image{
+    border-radius:16px 16px 0 0;
+
+}
+
+.box3{
+    width: 540.27px; 
+    height: 630.52px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius:16px ;
+    text-align: center;
+   background-color: white;
+  
+}
+
+.box4{
+width: 290.69px;
+height: 301.61px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+border-radius:16px;
+text-align: center;
+background-color: white;
+font-size: 15.34px;
+
+
+}
+
+
+.saw-button{
+    
+    padding:80px 600px ;
+  
+}
+
+.July{
+    background-color: rgba(1, 172, 253, 1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+.jun{
+  font-size: 42.14px;
+  font-weight: bold;
+  color: white;
+}
+
+.aug{
+font-size: 20px;
+color: white;
+
+}
+
+.ku{
+
+    padding: 200px;
+}
+
+.hu{
+ padding: 200px;
+ color: #FFFFFF;
+}
+
+
+.classroom-contaiter{
+
+    display: grid;
+ grid-template-columns: repeat(2,1fr);
+  position: absolute;
+   right:10px;
+   padding: 0 450px;
+   gap: 20px;
+}
+
+.display-co{
+    margin-top: -22px;
+}
+
+
+.hide{
+    display:none ;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+
+  .holo{
+    display: flex;
+    justify-content: space-between;
+   justify-content: center;
+   
+  }
+
+.logo{
+    position: absolute;
+    left: 30px;
+     ;
+}
+
+
+.font5{
+    position: relative;
+    right: 250px;
+   
+}
+
+  .container-btn{
+    display: none;
+  }
+
+  .halu{
+    padding: 200px;
+color: #FFFFFF;
+  }
+/* i phone 14 mobile size */
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    .font1 , 
+    .font2 ,
+     .font3 ,
+     .font4 ,
+     .font ,
+     .font-size{
+        display: none;
+     }
+        
+    
+    
+    
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .jolo{
+        width: 336.58px;
+        height: 413px;
+        position: relative;
+        right: 70px;
+        
+    }
+
+.banner{
+     gap: 18px;
+    justify-content: center;
+    width: 100%;
+       flex-direction: column-reverse;
+}
+.banner-greting{
+    width: 100%;
+       position: relative;
+       right: 90px;
+       white-space: auto;
+       flex-direction: column;
+       margin: 0 10px 0 10px;
+}
+.font6, .font7 ,.font8{
+
+    font-size: 32px;
+}
+
+
+.font9{
+    font-size: 14px;
+}
+
+.font10 {
+     padding: 40px 0 20px 0;
+    font-size: 26px;
+   position: relative;
+   right: 8px;
+}
+
+.font11{
+    font-size: 16.6px;
+}
+
+.font14{
+    font-size: 9.13px;
+}
+.btn-primary{
+margin:10px 0 ;
+    font-size: 24px 6px;
+    border-radius: 8px;
+    position: absolute;
+    left: 80px;
+}
+    nav{
+       display: block;
+       border: 1px solid orange;
+       width: 100%;
+       flex-direction: column;
+    }
+
+    .container-btn{
+        position: absolute;
+        right: 10px;
+        margin-top: -80px;
+        display: block;
+      padding: 25px;
+    }
+
+    .font5{ 
+        display: none;
+       
+    }
+    
+    .logo{
+        position: absolute;
+       right: 10px; 
+       height: 46px;
+       width: 46px;
+       margin-top: -20px;
+    }
+    .box{
+        border-radius: 12.77px;
+        padding:  10px  5px;
+        gap: auto;
+        margin: 0px 10px 0 20px;
+    }
+
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 100px;
+        align-items: center;
+       
+    }
+    .July{
+        margin: auto;
+        width: 100%;
+       flex-direction: column;
+    }
+
+ .box3{
+    display: none;
+ }
+ .box4{
+    width: 173.35px;
+    height: 179.59px;
+   
+ }
+
+.radious-image{
+width: 173.35px;
+
+}
+ .classroom-contaiter{
+    display: grid;
+    grid-template-areas: repeat(2, 1fr);
+    position: relative;
+    right: 70px;
+    gap: 4px;
+    margin-left: 90px;
+   margin-right:  60px; ;
+ }
+
+ .saw-button{
+    position: relative;
+   right: 55px;
+ }
+
+.btn-primary5 ,.btn-primary6{
+    width: 103.91px;
+    height: 22.83px;
+    font-size: 9.13px;
+}
+
+.display-co {
+    margin: -15px;
+    line-height: 2px;
+    
+}
+.thrid-background{
+    width: 71%;
+    height: 768.89px;
+       flex-direction: column;
+       margin-right: 10px;
+
+}
+ 
+.secondary-backgroud{
+   width: 390px;
+    height: 1913.51px;
+    width: 100%;
+       flex-direction: column;
+     
+}
+
+.jun{
+    font-size: 35.73px;
+}
+.aug{
+    font-size:16px ;
+}
+
+.ku , .hu{
+    padding: 30px;
+    position: absolute;
+    right: 50px;
+}
+.hu{
+margin-top: 250px;
+position: absolute;
+left: 50px;
+}
+
+.halu{
+    margin-top: 300px;
+    position: relative;
+  right: 130px;
+}
+
+
+.social{
+ 
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+}
+
+
+.lang{
+    display: none;
+}
+
+   
+
+}
